@@ -1,4 +1,4 @@
-# ⚡ Lucknow Power Grid Network Analysis
+#  Lucknow Power Grid Network Analysis
 
 A graph-theoretic analysis of the urban transmission network in Lucknow using real geospatial infrastructure data.
 
@@ -6,7 +6,7 @@ This project converts raw grid topology into a network model to evaluate **conne
 
 ---
 
-## 🚀 What This Does
+##  What This Does
 
 This project extracts and analyzes **real-world transmission network structure** — not synthetic data.
 
@@ -18,7 +18,7 @@ OpenStreetMap → OSMnx → Graph Construction → Network Analysis → Visualiz
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 | Metric     | Value  | Insight                |
 | ---------- | ------ | ---------------------- |
@@ -37,7 +37,7 @@ OpenStreetMap → OSMnx → Graph Construction → Network Analysis → Visualiz
 
 ---
 
-## 🧠 Why This Matters
+## Why This Matters
 
 Grid topology directly impacts:
 
@@ -55,7 +55,7 @@ This project acts as a **foundation layer** for:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * NetworkX
@@ -66,7 +66,7 @@ This project acts as a **foundation layer** for:
 
 ---
 
-## 🧩 Core Capabilities
+##  Core Capabilities
 
 ### 1. Grid Extraction
 
@@ -88,7 +88,7 @@ This project acts as a **foundation layer** for:
 
 ---
 
-## ▶️ Run Locally
+##  Run Locally
 
 ```
 pip install -r requirements.txt
@@ -97,7 +97,7 @@ python app.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 lucknow-power-grid-analysis/
@@ -116,7 +116,7 @@ lucknow-power-grid-analysis/
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 This is a **topological model**, not a full electrical simulation.
 
@@ -128,7 +128,7 @@ Missing:
 * Load & generation modeling
 
 ---
-## 🎯 Positioning
+## Positioning
 
 This is NOT:
 
@@ -140,7 +140,7 @@ This IS:
 
 ---
 
-## 🧠 Strategic Insight
+##  Strategic Insight
 
 Power grids are **networks under constraint**.
 
