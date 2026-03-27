@@ -1,4 +1,4 @@
-##⚡ Lucknow Power Grid Network Analysis
+⚡ Lucknow Power Grid Network Analysis
 
 A graph-theoretic analysis of the urban transmission network in Lucknow using real geospatial infrastructure data.
 
@@ -11,7 +11,7 @@ This project extracts and analyzes real-world transmission network structure.
 Pipeline:
 
 OpenStreetMap → OSMnx → Graph Construction → Network Analysis → Visualization
-##📊 Key Findings
+📊 Key Findings
 Metric	Value	Insight
 Nodes	~8000+	Large-scale urban grid
 Edges	~8000+	Sparse connectivity
@@ -25,14 +25,14 @@ Structure resembles radial + lightly meshed topology
 High risk of failure propagation from critical nodes
 🧠 Why This Matters
 
-##Grid topology directly affects:
+Grid topology directly affects:
 
 Fault tolerance
 Restoration time
 Power routing flexibility
 Infrastructure resilience
 
-##This project serves as a base for:
+This project serves as a base for:
 
 Vulnerability analysis
 Contingency simulation
@@ -45,7 +45,7 @@ OSMnx
 Pandas
 Matplotlib
 NumPy
-##🧩 Core Capabilities
+🧩 Core Capabilities
 1. Grid Extraction
 Pulls transmission infrastructure from OpenStreetMap
 Converts geospatial data into graph nodes and edges
@@ -61,11 +61,11 @@ Static geographic visualization
 ▶️ Run Locally
 pip install -r requirements.txt
 python app.py
-##⚠️ Limitations
+⚠️ Limitations
 
 This is a topological model, not a physical power system simulation.
 
-##Missing:
+Missing:
 
 Line impedance
 Power flow modeling
